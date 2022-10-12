@@ -300,6 +300,9 @@ hr{
     .favourite-posts{
         height: 400px;
     }
+    .favourite-posts .title{
+      text-align: center;
+    }
 }
 @media (min-width: 576px) and (max-width: 639px) { 
     .favourite-posts{
