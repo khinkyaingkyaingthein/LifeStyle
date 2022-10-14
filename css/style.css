@@ -245,6 +245,10 @@ hr{
     font-size: 18px;
     letter-spacing: 1px;
 }
+.connect-rect{
+  border-radius: 0%;
+  padding: 12px;
+}
 /* older-post */
 .older-image{
     border: 5px solid #c8c8cc;
@@ -308,9 +312,9 @@ hr{
     .about{
       text-align: center;
     }
-    .about-title{
+    /* .about-title{
       margin-left: -250px;
-    }
+    } */
 }
 @media (min-width: 576px) and (max-width: 639px) { 
     .favourite-posts{
@@ -347,12 +351,15 @@ hr{
   font-weight: bolder;
 }
 .about-heading-text{
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   letter-spacing: 1px;
   line-height: 30px;
 }
-.banner-img img::before{
+.banner{
+  position: relative;
+}
+.about-demo::before{
   content: "";
   display: block;
   position: absolute;
@@ -361,8 +368,69 @@ hr{
   bottom: 0;
   right: 0;
   background: #000;
-  opacity: 0.8;
+  opacity: 0.3;
   
 }
+/* Blog Page */
+.about-list{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #1c1e1f;
+  text-align: justify;
+}
+.feedback-icon{
+  font-size: 30px;
+  color:#1da1f2;
+}
+.feedback-text{
+  font-size: 20px;
+}
+.feedback-name{
+  color: #1c1e1f;
+}
+.feedback-info{
+  text-align: justify;
+}
+.about-img{
+  position: relative;
+}
+.about-flood{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  padding-top: 1rem;
+  background-color: rgba(14, 15, 16, 0.67);
+  width: 100%;
+}
+
+/* Contact Us */
+.contact h3{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Inter Tight',sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+.contact-text{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Inter Tight',sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: #cdcbc7;
+}
+.contact-bg{
+  background-color: #f2efe6;
+  margin-top: -5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size: 18px;
+  padding: 100px;
+}
+
 
 
