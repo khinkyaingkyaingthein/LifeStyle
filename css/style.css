@@ -424,12 +424,11 @@ hr{
 }
 .contact-bg{
   background-color: #f2efe6;
-  margin-top: -5px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  font-size: 18px;
-  padding: 100px;
+  font-size: 20px;
+  padding: 60px;
+}
+.contact-address{
+  padding-left: 70px;
 }
 
 
